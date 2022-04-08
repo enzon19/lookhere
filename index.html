@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>LookHere!</title>
+    <meta name="description" content="Hey, I have a message for you here! LookHere! With this tool, you can create flashy messages to call attention from people near from you in real life.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/animation.css">
+    <link rel="stylesheet" href="/styles/palette.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/res/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/res/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/res/favicons/favicon-16x16.png">
+    <link rel="icon" href="/res/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-status-bar" content="#ffffff">
+    <meta name="theme-color" content="white">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body onload="main()" onresize="updateFontSize()" align="center">
+    <script type="text/javascript" src="pwa/serviceWorkerHTML.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <span ondblclick="changeMessage()" id="mainMessage" class="disable-select">Double Click</span>
+    <div class="palette">
+      <span id="1d9bf0" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="00ba7c" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="ffd400" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="ff7a00" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="7856ff" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="f91880" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="e70923" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+      <span id="000000" onclick="changeColor(this)" touchstart="changeColor(this)" class="color"></span>
+    </div>
+    <script type="text/javascript" src="scripts/index.js"></script>
+  </body>
+</html>

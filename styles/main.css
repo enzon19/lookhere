@@ -1,0 +1,22 @@
+#mainMessage {
+  white-space: pre-wrap;
+  line-height: 0.9;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  animation: blinkFore 1s infinite;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 96vh;
+  animation: blinkBack 1s infinite;
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}

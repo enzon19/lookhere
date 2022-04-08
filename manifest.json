@@ -1,0 +1,29 @@
+{
+  "name": "LookHere!",
+  "short_name": "LookHere!",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "description": "Hey, I have a message for you here! LookHere! With this tool, you can create flashy messages to call attention from people near from you in real life.",
+  "icons": [
+    {
+      "src": "res/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "res/appIcons/192.png",
+      "sizes": "192x192", 
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "res/appIcons/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
